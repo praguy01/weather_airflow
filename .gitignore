@@ -1,0 +1,21 @@
+# ไฟล์และโฟลเดอร์ที่ไม่ต้องการให้ Git track
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# Airflow log & DB
+logs/
+airflow.db
+airflow.cfg
+unittests.cfg
+.dags/
+plugins/
+
+# OS
+.DS_Store
+Thumbs.db
